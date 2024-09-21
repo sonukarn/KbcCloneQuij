@@ -47,11 +47,10 @@ const App = () => {
             <div className="main">
               {stop ? (
                 <div className="endText">
+                  <h1>{username}</h1>
                   <h1 className="endText">Game Over! </h1>
-                  <h1 className="endText">
-                    You Earned:{`${username}:${earned}`}{" "}
-                  </h1>
-                  <button className="" onClick={restartGame}>
+                  <h1 className="endText">You Earned:{earned}</h1>
+                  <button className="restartBtn" onClick={restartGame}>
                     RestartGame
                   </button>
                 </div>

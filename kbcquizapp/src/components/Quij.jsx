@@ -2,6 +2,7 @@ import React from "react";
 import { useEffect } from "react";
 import { useState } from "react";
 import useSound from "use-sound";
+import "./Quij.css";
 import correct from "../sounds/correct.mp3";
 import play from "../sounds/play.mp3";
 import wrong from "../sounds/wrong.mp3";

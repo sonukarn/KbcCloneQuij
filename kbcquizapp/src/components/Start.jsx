@@ -1,6 +1,6 @@
 import React from "react";
 import { useRef } from "react";
-
+import "./Start.css";
 const Start = ({ setUserName }) => {
   const inputRef = useRef();
   const handleClick = () => {
